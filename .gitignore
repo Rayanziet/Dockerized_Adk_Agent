@@ -1,4 +1,4 @@
-# Python
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
@@ -8,11 +8,21 @@ __pycache__/
 venv/
 .env
 
-# Docker
+# Docker files
 *.log
 *.env.local
 *.dockerignore
 
-# IDE / OS files
+# IDE / editor
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# ADK / generated files (optional, if any)
+*.db
+*.sqlite
