@@ -1,0 +1,3 @@
+google-adk[web]
+google-genai
+python-dotenv

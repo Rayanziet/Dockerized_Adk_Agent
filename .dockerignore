@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large data / temp
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.h5
+*.pkl
+*.zip
+*.tar
+*.gz
+*.tmp
+
+# Git
+.git/
+.gitignore

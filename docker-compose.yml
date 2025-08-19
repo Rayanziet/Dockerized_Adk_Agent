@@ -1,0 +1,9 @@
+services:
+  cli:
+    build: .
+    container_name: ysa-cli
+    env_file: .env
+    tty: true
+    stdin_open: true
+    command: ["python", "agent.py"]
+
